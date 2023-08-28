@@ -66,7 +66,7 @@ nav ul li a {
     bottom: 0;
 }
 
-@media only screen and (max-width: 1920px){
+@media only screen and (max-width: 1920px) {
     .footer{
         position: relative;
         width: 100%;
@@ -142,11 +142,11 @@ nav ul li a {
     border: 2px solid rgb(22, 218, 52);
 }
 
-.boutton button:hover{
+.boutton button:hover {
     animation: gros 0.5s forwards;
 } 
 
-@keyframes gros{
+@keyframes gros {
     100%{
         width: 210px;
         height: 60px;
