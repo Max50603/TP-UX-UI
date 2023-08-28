@@ -58,11 +58,11 @@ nav ul li a {
 }
 
 #image {
-    height: 1000px;
+    height: 800px;
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 #image img {
@@ -72,8 +72,7 @@ nav ul li a {
 
 h2 {
     text-align: center;
-    padding-top: 50px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 
 #para {
