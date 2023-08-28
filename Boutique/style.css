@@ -8,12 +8,13 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
+    background-color: #373535;
 }
 
 header {
     background-color: #0d0d0d;
     color: #fff;
-    position: absolute;
+    position: relative;
     width: 100%;
     text-align: center;
     padding: 1rem;
@@ -53,3 +54,37 @@ nav ul li a {
     bottom: 0;
   }
 /* FIN PARTIE FOOTER */
+
+/* PAGE BOUTIQUE */
+.article1 img, .article2 img, .article3 img{
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+.article1, .article2, .article3{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.container{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px;
+}
+
+.border{
+    width: 600px;
+    height: 800px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: #857d7d;
+}
+
+
+/* FIN PAGE BOUTIQUE */
