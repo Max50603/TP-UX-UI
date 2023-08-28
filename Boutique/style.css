@@ -52,24 +52,24 @@ nav ul li a {
     width: 100%;
     right: 0;
     bottom: 0;
-  }
+}
 /* FIN PARTIE FOOTER */
 
 /* PAGE BOUTIQUE */
-.article1 img, .article2 img, .article3 img{
+.article1 img, .article2 img, .article3 img {
     width: 300px;
     height: 300px;
     border-radius: 15px;
     border: 1px solid black;
 }
 
-.article1, .article2, .article3{
+.article1, .article2, .article3 {
     display: flex;
     justify-content: center;
     margin-top: 50px;
 }
 
-.container{
+.container {
     width: 100%;
     height: 800px;
     display: flex;
@@ -78,13 +78,41 @@ nav ul li a {
     margin: 10px;
 }
 
-.border{
-    width: 600px;
+.border {
+    width: 500px;
     height: 800px;
     border: 2px solid black;
     border-radius: 15px;
     background-color: #857d7d;
 }
 
+.prix{
+    width: 500px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.prix p{
+    font-size: 2em;
+    font-weight: 800;
+}
+
+.boutton{
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boutton button{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: black;
+    color: rgb(22, 218, 52);
+
+}
 /* FIN PAGE BOUTIQUE */
