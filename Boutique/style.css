@@ -9,6 +9,7 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #373535;
+    overflow-x: hidden;
 }
 
 header {
@@ -86,7 +87,7 @@ nav ul li a {
     background-color: #857d7d;
 }
 
-.prix{
+.prix {
     width: 500px;
     height: 200px;
     display: flex;
@@ -94,12 +95,12 @@ nav ul li a {
     align-items: center;
 }
 
-.prix p{
+.prix p {
     font-size: 2em;
     font-weight: 800;
 }
 
-.boutton{
+.boutton {
     width: 500px;
     height: 300px;
     display: flex;
@@ -107,7 +108,7 @@ nav ul li a {
     align-items: center;
 }
 
-.boutton button{
+.boutton button {
     width: 200px;
     height: 50px;
     border-radius: 10px;
