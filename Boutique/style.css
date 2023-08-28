@@ -42,5 +42,14 @@ nav ul li a {
 /* FIN PARTIE HEADER */
 
 /* PARTIE FOOTER */
-
+.footer {
+    background-color: #0d0d0d;
+    color: rgb(22, 218, 52);
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+  }
 /* FIN PARTIE FOOTER */
