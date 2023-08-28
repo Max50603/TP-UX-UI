@@ -54,6 +54,15 @@ nav ul li a {
     right: 0;
     bottom: 0;
 }
+
+@media only screen and (max-width: 1920px){
+    .footer{
+        position: relative;
+        width: 100%;
+        right: 0;
+        bottom: 0;
+    }
+}
 /* FIN PARTIE FOOTER */
 
 /* PAGE BOUTIQUE */
