@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #0d0d0d;
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+}
+
+header h1 {
+    font-size: 300%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(22, 218, 52);
+    font-size: 200%;
+}
