@@ -102,7 +102,7 @@ footer {
     bottom: 0;
 }
   
-@media only screen and (max-width: 1920px){
+@media only screen and (min-width: 1921px) {
     .footer{
         position: relative;
         width: 100%;
